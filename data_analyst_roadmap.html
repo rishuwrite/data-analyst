@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Analyst Roadmap — 0 to Job Ready (Free Resources)</title>
+<style>
+  :root{
+    --bg:#0f1117; --panel:#161922; --panel2:#1b1f2b; --accent:#5ec8f8; --accent2:#a78bfa;
+    --text:#e6e8ee; --muted:#9aa3b2; --good:#4ade80; --warn:#fbbf24; --border:#2a2f3d;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:'Segoe UI',Roboto,Arial,sans-serif;line-height:1.55;}
+  header{padding:48px 24px 32px;text-align:center;background:linear-gradient(135deg,#1a2030,#11141d);border-bottom:1px solid var(--border);}
+  header h1{margin:0 0 8px;font-size:2.1rem;color:#fff;}
+  header p{color:var(--muted);max-width:700px;margin:0 auto;}
+  .wrap{max-width:1000px;margin:0 auto;padding:24px;}
+  nav.toc{background:var(--panel);border:1px solid var(--border);border-radius:12px;padding:20px 24px;margin-bottom:32px;}
+  nav.toc h2{margin-top:0;font-size:1.1rem;color:var(--accent);}
+  nav.toc ul{columns:2;list-style:none;padding:0;margin:0;}
+  nav.toc li{margin:4px 0;}
+  nav.toc a{color:var(--text);text-decoration:none;font-size:0.92rem;}
+  nav.toc a:hover{color:var(--accent);}
+  section.phase{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:28px 28px 8px;margin-bottom:28px;}
+  section.phase h2{color:var(--accent);margin-top:0;font-size:1.4rem;border-bottom:1px solid var(--border);padding-bottom:10px;}
+  h3{color:#fff;font-size:1.05rem;margin-top:24px;}
+  table{width:100%;border-collapse:collapse;margin:14px 0 22px;font-size:0.9rem;}
+  th,td{border:1px solid var(--border);padding:8px 10px;text-align:left;vertical-align:top;}
+  th{background:var(--panel2);color:var(--accent);}
+  tr:nth-child(even){background:#13151e;}
+  ul{padding-left:22px;}
+  li{margin:4px 0;}
+  .tag{display:inline-block;background:var(--panel2);border:1px solid var(--border);color:var(--accent2);border-radius:20px;padding:2px 10px;font-size:0.78rem;margin:2px 4px 2px 0;}
+  .note{background:#1c2230;border-left:4px solid var(--accent);padding:10px 14px;border-radius:6px;font-size:0.9rem;color:var(--muted);margin:14px 0;}
+  .resource{color:var(--good);}
+  a{color:var(--accent);}
+  .badge-easy{color:var(--good);}
+  .badge-med{color:var(--warn);}
+  .badge-hard{color:#f87171;}
+  footer{text-align:center;color:var(--muted);padding:40px 0;font-size:0.85rem;}
+  .checklist label{display:block;margin:4px 0;cursor:pointer;}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  @media(max-width:700px){.grid2{grid-template-columns:1fr;} nav.toc ul{columns:1;}}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>📊 The Complete Data Analyst Roadmap</h1>
+  <p>Beginner → Job-Ready Professional in 6–12 Months, using 100% Free Resources.
+  Tailored for someone who already knows Excel well and prefers project-based, hands-on learning.</p>
+</header>
+
+<div class="wrap">
+
+<nav class="toc">
+  <h2>Roadmap Contents</h2>
+  <ul>
+    <li><a href="#p1">Phase 1 — Foundations</a></li>
+    <li><a href="#p2">Phase 2 — Advanced Excel</a></li>
+    <li><a href="#p3">Phase 3 — SQL</a></li>
+    <li><a href="#p4">Phase 4 — Python for Data Analysis</a></li>
+    <li><a href="#p5">Phase 5 — Power BI</a></li>
+    <li><a href="#p6">Phase 6 — Tableau</a></li>
+    <li><a href="#p7">Phase 7 — Advanced Google Sheets</a></li>
+    <li><a href="#p8">Phase 8 — Statistics</a></li>
+    <li><a href="#p9">Phase 9 — Business Analytics</a></li>
+    <li><a href="#p10">Phase 10 — Data Visualization</a></li>
+    <li><a href="#p11">Phase 11 — Portfolio Projects</a></li>
+    <li><a href="#p12">Phase 12 — Git & GitHub</a></li>
+    <li><a href="#p13">Phase 13 — Resume</a></li>
+    <li><a href="#p14">Phase 14 — LinkedIn</a></li>
+    <li><a href="#p15">Phase 15 — Interview Prep</a></li>
+    <li><a href="#p16">Phase 16 — Practice Websites</a></li>
+    <li><a href="#p17">Phase 17 — YouTube Channels</a></li>
+    <li><a href="#p18">Phase 18 — Free Books & Docs</a></li>
+    <li><a href="#p19">Phase 19 — Software Checklist</a></li>
+    <li><a href="#p20">Phase 20 — 12-Month Plan</a></li>
+    <li><a href="#extra">Extras: Salary, Mistakes, Tips</a></li>
+  </ul>
+</nav>
+
+<!-- PHASE 1 -->
+<section class="phase" id="p1">
+<h2>Phase 1 — Foundations (Weeks 1–3)</h2>
+<p>Before tools, build the thinking layer. This is what separates a "button-clicker" from an actual analyst.</p>
+
+<table>
+<tr><th>Topic</th><th>Why it matters</th><th>Time</th><th>Best Free Resource</th></tr>
+<tr><td>Data Analytics Fundamentals</td><td>Understand the analytics lifecycle: collect → clean → analyze → visualize → communicate.</td><td>2–3 days</td><td><a href="https://www.youtube.com/results?search_query=google+data+analytics+course+free">Google Data Analytics (audit free on Coursera)</a>, Alex The Analyst "Data Analyst Bootcamp" playlist on YouTube</td></tr>
+<tr><td>Business Thinking</td><td>Analysts answer business questions, not just produce charts. You need to think in KPIs, revenue, cost, churn.</td><td>3–4 days</td><td>Investopedia (free articles), "Business Analytics" videos by Alex The Analyst & Luke Barousse</td></tr>
+<tr><td>Data Cleaning</td><td>80% of real analyst work is cleaning messy data. This is a daily job skill.</td><td>1 week (ongoing)</td><td>Kaggle "Data Cleaning" micro-course (free), practice on messy Kaggle datasets</td></tr>
+<tr><td>Data Visualization Basics</td><td>Choosing the right chart type is more important than making it look pretty.</td><td>3 days</td><td>"Storytelling with Data" blog (free), YouTube: Chandoo.org</td></tr>
+<tr><td>Data Storytelling</td><td>Stakeholders remember stories, not spreadsheets. This is what gets you promoted.</td><td>3 days</td><td>Cole Nussbaumer Knaflic's free blog & talks (search YouTube "storytelling with data talk")</td></tr>
+<tr><td>Problem Solving (Structured Thinking)</td><td>Helps you break vague requests like "sales are down, why?" into a clear investigation plan.</td><td>3 days</td><td>YouTube: "Case Study Interview" frameworks, MECE framework explainers</td></tr>
+</table>
+
+<div class="note">Practice while learning: open any Kaggle dataset and just explore it — ask 5 business questions about it and try answering with formulas you already know.</div>
+</section>
+
+<!-- PHASE 2 -->
+<section class="phase" id="p2">
+<h2>Phase 2 — Advanced Excel (Weeks 3–5)</h2>
+<p>Since basics are already strong, skip straight to the tools companies actually pay for.</p>
+<table>
+<tr><th>Topic</th><th>Why</th><th>Best Free Playlist</th></tr>
+<tr><td>Power Query</td><td>ETL inside Excel — used in almost every real reporting job.</td><td>YouTube: "Power Query" by Excel Off The Grid / Leila Gharani</td></tr>
+<tr><td>Power Pivot & Data Model</td><td>Lets you join multiple tables like a mini database, build real relational reports.</td><td>Leila Gharani's "Power Pivot" series</td></tr>
+<tr><td>Pivot Charts</td><td>Fast executive-style visuals tied directly to pivot tables.</td><td>Any Excel dashboard playlist by "Chandoo"</td></tr>
+<tr><td>Dynamic Arrays (FILTER, SORT, UNIQUE, SEQUENCE)</td><td>Modern formula approach replacing old array formulas.</td><td>Leila Gharani "Dynamic Arrays" video</td></tr>
+<tr><td>LET & LAMBDA</td><td>Write reusable custom functions — closest Excel gets to "coding."</td><td>"Excel LAMBDA function" — Leila Gharani / MrExcel</td></tr>
+<tr><td>VBA (optional)</td><td>Only needed if a job specifically requires automation via macros.</td><td>"Excel VBA for beginners" — ExcelIsFun</td></tr>
+<tr><td>Dashboard Design</td><td>This is the project people put on their portfolio/resume.</td><td>"Excel Dashboard Tutorial" — Chandoo, Excel Off The Grid</td></tr>
+<tr><td>Automation</td><td>Power Automate / Office Scripts reduce manual repetitive reporting.</td><td>"Power Automate for Excel" official Microsoft Learn (free)</td></tr>
+</table>
+<p><strong>Practice datasets:</strong> <span class="tag">Maven Analytics free datasets</span> <span class="tag">Kaggle</span> <span class="tag">data.gov</span></p>
+</section>
+
+<!-- PHASE 3 -->
+<section class="phase" id="p3">
+<h2>Phase 3 — SQL (Weeks 5–9)</h2>
+<table>
+<tr><th>Level</th><th>Topics</th></tr>
+<tr><td>Beginner</td><td>SELECT, WHERE, ORDER BY, basic filtering & sorting</td></tr>
+<tr><td>Intermediate</td><td>GROUP BY, HAVING, CASE, all JOIN types, UNION</td></tr>
+<tr><td>Advanced</td><td>CTEs, Window Functions (RANK, ROW_NUMBER, LAG/LEAD), Subqueries, Views</td></tr>
+<tr><td>Expert</td><td>Stored Procedures, Indexing & Query Performance Optimization</td></tr>
+</table>
+<h3>Best Free Resources</h3>
+<ul>
+<li><strong>YouTube playlists:</strong> Alex The Analyst "SQL for Beginners", freeCodeCamp "SQL Full Course"</li>
+<li><strong>Practice sites:</strong> SQLBolt (beginner), Mode Analytics SQL tutorial, HackerRank SQL, LeetCode SQL, <strong>StrataScratch</strong> and <strong>DataLemur</strong> (best for real interview-style questions)</li>
+<li><strong>Database to install:</strong> PostgreSQL or MySQL (free) + DBeaver as the GUI client</li>
+</ul>
+<h3>Suggested Daily Practice Schedule (45–60 min)</h3>
+<ul><li>15 min revision of previous concept</li><li>30 min new topic + along-with-video practice</li><li>15 min — 2 to 3 problems on StrataScratch/LeetCode</li></ul>
+</section>
+
+<!-- PHASE 4 -->
+<section class="phase" id="p4">
+<h2>Phase 4 — Python for Data Analytics (Weeks 9–14)</h2>
+<table>
+<tr><th>Topic</th><th>Why it matters</th></tr>
+<tr><td>Python Basics</td><td>Variables, loops, functions, data structures — the base for everything else.</td></tr>
+<tr><td>Pandas</td><td>The single most important analyst library — cleaning, transforming, aggregating data.</td></tr>
+<tr><td>NumPy</td><td>Underlying numerical engine; needed for stats-heavy analysis.</td></tr>
+<tr><td>Matplotlib / Seaborn / Plotly</td><td>Static (Matplotlib/Seaborn) and interactive (Plotly) visualizations.</td></tr>
+<tr><td>Data Cleaning & EDA</td><td>Real-world messy data handling — the actual day-to-day job.</td></tr>
+<tr><td>File Handling & APIs</td><td>Reading CSV/Excel/JSON, pulling live data from APIs.</td></tr>
+<tr><td>Web Scraping</td><td>Useful for building unique portfolio datasets nobody else has.</td></tr>
+<tr><td>Automation</td><td>Auto-generate reports/emails — strong resume differentiator.</td></tr>
+</table>
+<h3>Best Free Resources</h3>
+<ul>
+<li><strong>YouTube:</strong> Corey Schafer (Pandas deep-dives), Keith Galli, freeCodeCamp "Python for Data Analysis"</li>
+<li><strong>Documentation:</strong> pandas.pydata.org, numpy.org, matplotlib.org, plotly.com/python</li>
+<li><strong>Practice:</strong> Kaggle notebooks/competitions, "100 Pandas Puzzles" (GitHub, free)</li>
+<li><strong>Tools:</strong> Jupyter Notebook / VS Code with Python extension (both free)</li>
+</ul>
+</section>
+
+<!-- PHASE 5 -->
+<section class="phase" id="p5">
+<h2>Phase 5 — Power BI (Weeks 14–18)</h2>
+<table>
+<tr><th>Topic</th><th>Notes</th></tr>
+<tr><td>Power Query in Power BI</td><td>Same engine as Excel Power Query — transferable skill.</td></tr>
+<tr><td>Data Modeling & Relationships</td><td>Star schema basics — most important conceptual skill in BI.</td></tr>
+<tr><td>DAX (Measures & Calculated Columns)</td><td>The "formula language" of Power BI — biggest skill gap among beginners.</td></tr>
+<tr><td>Dashboards & Reports</td><td>Visual design + interactivity (slicers, drill-throughs, bookmarks).</td></tr>
+<tr><td>Publishing & Power BI Service</td><td>Sharing dashboards, scheduled refresh, workspaces.</td></tr>
+<tr><td>Best Practices</td><td>Performance tuning, naming conventions, folder organization.</td></tr>
+</table>
+<p><strong>Best free resources:</strong> Microsoft Learn "Power BI" path (100% free, official), YouTube: Guy in a Cube, Pragmatic Works.<br>
+<strong>Datasets/projects:</strong> Maven Analytics free Power BI datasets, Kaggle.<br>
+<strong>Interview prep:</strong> search "Power BI interview questions" on AmbitionBox / GeeksforGeeks (free).</p>
+</section>
+
+<!-- PHASE 6 -->
+<section class="phase" id="p6">
+<h2>Phase 6 — Tableau (Weeks 18–20, Optional but Recommended)</h2>
+<div class="note">Yes — learn Tableau after Power BI. Many companies (especially MNCs, consulting, US-based firms) still prefer Tableau, and knowing both makes you significantly more hireable.</div>
+<ul>
+<li>Tableau Public (free version) installation & interface</li>
+<li>Connecting data sources, basic chart types</li>
+<li>Calculated fields, Table Calculations, LOD expressions</li>
+<li>Dashboard actions, parameters, filters</li>
+<li>Publishing to Tableau Public profile (acts as a public portfolio!)</li>
+</ul>
+<p><strong>Resources:</strong> YouTube — Tableau official channel, Pavan Lalwani; practice via Tableau Public's "Viz of the Day" gallery for inspiration.</p>
+</section>
+
+<!-- PHASE 7 -->
+<section class="phase" id="p7">
+<h2>Phase 7 — Advanced Google Sheets (Week 20–21)</h2>
+<ul>
+<li><strong>QUERY</strong> — SQL-like querying inside Sheets</li>
+<li><strong>FILTER / ARRAYFORMULA</strong> — dynamic, formula-driven datasets</li>
+<li><strong>IMPORTRANGE</strong> — linking multiple spreadsheets (used heavily in startups)</li>
+<li><strong>Apps Script</strong> — automation (e.g., auto-email reports)</li>
+<li><strong>Connected Sheets</strong> — pulling BigQuery data directly into Sheets</li>
+</ul>
+<p><strong>Resource:</strong> YouTube "Google Sheets QUERY function," Ben Collins' free blog (bencollins.co.uk) — one of the best free Sheets resources available.</p>
+</section>
+
+<!-- PHASE 8 -->
+<section class="phase" id="p8">
+<h2>Phase 8 — Statistics for Analysts (runs parallel, Weeks 6–16)</h2>
+<table>
+<tr><th>Concept</th><th>Where it's used</th></tr>
+<tr><td>Mean, Median, Mode, Variance, Std Dev</td><td>Every single dashboard/report summary</td></tr>
+<tr><td>Probability basics</td><td>Risk, forecasting, A/B test interpretation</td></tr>
+<tr><td>Correlation vs Causation</td><td>Avoiding wrong business conclusions</td></tr>
+<tr><td>Regression (Linear)</td><td>Trend forecasting, prediction</td></tr>
+<tr><td>Hypothesis Testing & Confidence Intervals</td><td>Validating whether results are statistically meaningful</td></tr>
+<tr><td>A/B Testing</td><td>Extremely common in product/marketing analyst roles</td></tr>
+</table>
+<p><strong>Resources:</strong> Khan Academy Statistics (100% free), StatQuest with Josh Starmer (best free YouTube channel for stats, explained simply).</p>
+</section>
+
+<!-- PHASE 9 -->
+<section class="phase" id="p9">
+<h2>Phase 9 — Business Analytics Concepts (Weeks 21–23)</h2>
+<div class="grid2">
+<ul><li>KPI vs OKR — what to measure vs how to align goals</li><li>Funnel Analysis — conversion drop-off at each stage</li><li>Cohort Analysis — retention over time by user groups</li><li>Customer Segmentation — RFM, demographic, behavioral</li></ul>
+<ul><li>Churn Analysis — predicting and explaining customer loss</li><li>Sales Analysis — pipeline, region, rep performance</li><li>Financial Metrics — revenue, margin, CAC, LTV</li><li>Supply Chain Analytics — inventory turnover, lead time</li></ul>
+</div>
+<p><strong>Resource:</strong> YouTube: "Business Analytics" by Alex The Analyst, Luke Barousse — both explain these with real dashboard examples.</p>
+</section>
+
+<!-- PHASE 10 -->
+<section class="phase" id="p10">
+<h2>Phase 10 — Data Visualization Mastery (Weeks 23–24)</h2>
+<ul>
+<li>Choosing the right chart for the right question (avoid pie chart overuse!)</li>
+<li>Color theory — using color to highlight, not decorate</li>
+<li>Executive dashboard design — fewer numbers, more insight</li>
+<li>Common mistakes: too many colors, 3D charts, cluttered KPIs, no clear hierarchy</li>
+</ul>
+<p><strong>Resource:</strong> "Storytelling with Data" (free blog + YouTube talks by Cole Nussbaumer Knaflic), Chandoo.org dashboard breakdowns.</p>
+</section>
+
+<!-- PHASE 11 -->
+<section class="phase" id="p11">
+<h2>Phase 11 — Portfolio: 20 Real-World Projects</h2>
+<table>
+<tr><th>Project</th><th>Skills</th><th>Difficulty</th><th>Dataset Source</th><th>Time</th></tr>
+<tr><td>Amazon Sales Dashboard</td><td>Excel/Power BI, Pivot, DAX</td><td class="badge-easy">Easy</td><td>Kaggle</td><td>3–4 days</td></tr>
+<tr><td>Blinkit/Instamart Dashboard</td><td>Power BI, Data Modeling</td><td class="badge-easy">Easy</td><td>Kaggle</td><td>3–4 days</td></tr>
+<tr><td>Netflix Content Dashboard</td><td>Python EDA + Tableau</td><td class="badge-med">Medium</td><td>Kaggle</td><td>5 days</td></tr>
+<tr><td>Spotify Listening Trends</td><td>Python, API, Seaborn</td><td class="badge-med">Medium</td><td>Spotify API</td><td>5–6 days</td></tr>
+<tr><td>IPL Data Analysis</td><td>SQL + Power BI</td><td class="badge-med">Medium</td><td>Kaggle</td><td>5 days</td></tr>
+<tr><td>HR Attrition Dashboard</td><td>Power BI, DAX, Storytelling</td><td class="badge-med">Medium</td><td>Kaggle "HR Analytics"</td><td>4–5 days</td></tr>
+<tr><td>Hospital Management Dashboard</td><td>SQL + Power BI</td><td class="badge-hard">Hard</td><td>Kaggle / synthetic data</td><td>6–7 days</td></tr>
+<tr><td>Manufacturing Defect Analysis</td><td>Python + Excel</td><td class="badge-hard">Hard</td><td>Kaggle</td><td>6 days</td></tr>
+<tr><td>Logistics & Delivery Dashboard</td><td>SQL + Tableau</td><td class="badge-med">Medium</td><td>Kaggle</td><td>5 days</td></tr>
+<tr><td>Finance/Stock Analysis</td><td>Python, Pandas, yFinance API</td><td class="badge-hard">Hard</td><td>Yahoo Finance API (free)</td><td>6–7 days</td></tr>
+<tr><td>Inventory Management Dashboard</td><td>Excel/Power BI</td><td class="badge-easy">Easy</td><td>Kaggle</td><td>3 days</td></tr>
+<tr><td>Customer Segmentation (RFM)</td><td>Python, clustering basics</td><td class="badge-hard">Hard</td><td>Kaggle "Online Retail"</td><td>6 days</td></tr>
+<tr><td>Marketing Campaign Dashboard</td><td>Power BI, Funnel analysis</td><td class="badge-med">Medium</td><td>Kaggle</td><td>4–5 days</td></tr>
+<tr><td>Supply Chain Dashboard</td><td>SQL + Power BI</td><td class="badge-hard">Hard</td><td>Kaggle</td><td>6 days</td></tr>
+<tr><td>E-commerce Sales & Returns</td><td>SQL + Excel</td><td class="badge-med">Medium</td><td>Kaggle</td><td>4 days</td></tr>
+<tr><td>COVID-19 Data Tracker</td><td>Python, Plotly</td><td class="badge-med">Medium</td><td>Our World in Data (free)</td><td>4–5 days</td></tr>
+<tr><td>Airbnb Pricing Analysis</td><td>Python EDA + Tableau</td><td class="badge-med">Medium</td><td>Kaggle</td><td>5 days</td></tr>
+<tr><td>Bank Loan/Default Analysis</td><td>SQL + Power BI + Stats</td><td class="badge-hard">Hard</td><td>Kaggle</td><td>6 days</td></tr>
+<tr><td>Web Scraped Job Market Dashboard</td><td>Python web scraping + Power BI</td><td class="badge-hard">Hard</td><td>Self-scraped (e.g., job sites)</td><td>7 days</td></tr>
+<tr><td>Personal Finance Tracker (Sheets Automation)</td><td>Google Sheets, Apps Script</td><td class="badge-easy">Easy</td><td>Your own data</td><td>3 days</td></tr>
+</table>
+<div class="note">Build at least 2–3 of these end-to-end with a written case study (problem → process → insight → recommendation). Quality + storytelling beats quantity.</div>
+</section>
+
+<!-- PHASE 12 -->
+<section class="phase" id="p12">
+<h2>Phase 12 — Git & GitHub (Week 24, ongoing after)</h2>
+<ul>
+<li>Git basics: init, add, commit, push, pull, status</li>
+<li>Branching & merging</li>
+<li>Writing a clean README for each project (problem, tools, insights, screenshots)</li>
+<li>GitHub Pages — host a free portfolio website directly from your repo</li>
+</ul>
+<p><strong>Resource:</strong> "Git and GitHub for Beginners" — freeCodeCamp (YouTube, free, ~1 hr).</p>
+</section>
+
+<!-- PHASE 13 -->
+<section class="phase" id="p13">
+<h2>Phase 13 — Resume Building</h2>
+<ul>
+<li>Use a clean, single-column ATS-friendly template (avoid tables/graphics that break ATS parsing)</li>
+<li>Lead each bullet with an action verb + quantified result ("Built a Power BI dashboard reducing report time by 40%")</li>
+<li>Include a "Projects" section with GitHub links — extremely important for analysts with no job experience</li>
+<li>Add a "Skills" section grouped by category: Tools, Languages, Concepts</li>
+<li>Common mistakes: walls of text, no metrics, generic objective statements, listing every tool you've "heard of"</li>
+</ul>
+</section>
+
+<!-- PHASE 14 -->
+<section class="phase" id="p14">
+<h2>Phase 14 — LinkedIn Optimization</h2>
+<ul>
+<li><strong>Headline:</strong> "Data Analyst | SQL • Python • Power BI • Excel | Turning Data into Decisions" (not just "Aspiring Data Analyst")</li>
+<li><strong>About section:</strong> Short story of your journey + 2–3 project highlights + call to action</li>
+<li><strong>Featured section:</strong> Pin your top 3 dashboards/projects with links</li>
+<li><strong>Networking:</strong> Comment thoughtfully on analyst posts, connect with recruiters with a short personalized note</li>
+<li><strong>Job search:</strong> Use LinkedIn's "Open to Work" + set up job alerts for "Data Analyst" + filter by "Entry Level"</li>
+</ul>
+</section>
+
+<!-- PHASE 15 -->
+<section class="phase" id="p15">
+<h2>Phase 15 — Interview Preparation</h2>
+<ul>
+<li><strong>SQL:</strong> Practice 50+ JOIN/window-function questions on StrataScratch/DataLemur</li>
+<li><strong>Excel:</strong> Be ready to explain VLOOKUP vs INDEX/MATCH vs XLOOKUP, pivot table logic live</li>
+<li><strong>Power BI:</strong> Be ready to explain a measure you wrote and why you chose DAX over a calculated column</li>
+<li><strong>Python:</strong> Practice live Pandas data-cleaning challenges (loading messy CSV, fixing nulls/duplicates)</li>
+<li><strong>HR round:</strong> Prepare your project story using the STAR method (Situation, Task, Action, Result)</li>
+<li><strong>Case studies:</strong> Practice "metric dropped, why?" style business case questions out loud</li>
+</ul>
+<p><strong>For a question bank:</strong> search "Top SQL interview questions GeeksforGeeks," "Power BI interview questions InterviewBit" — both free and extensive.</p>
+</section>
+
+<!-- PHASE 16 -->
+<section class="phase" id="p16">
+<h2>Phase 16 — Practice Websites</h2>
+<table>
+<tr><th>Website</th><th>Best For</th></tr>
+<tr><td>Kaggle</td><td>Datasets, notebooks, beginner-friendly competitions</td></tr>
+<tr><td>Maven Analytics (free datasets)</td><td>High-quality dashboard-ready business datasets</td></tr>
+<tr><td>Data.gov</td><td>Real government datasets — adds credibility to projects</td></tr>
+<tr><td>Google Dataset Search</td><td>Finding niche datasets on any topic</td></tr>
+<tr><td>SQLBolt</td><td>Interactive SQL basics in the browser</td></tr>
+<tr><td>HackerRank</td><td>SQL + general problem solving, good for certificates</td></tr>
+<tr><td>StrataScratch</td><td>Real company SQL/Python interview questions</td></tr>
+<tr><td>LeetCode SQL</td><td>More advanced/competitive SQL problems</td></tr>
+<tr><td>DataLemur</td><td>FAANG-style SQL & analytics interview prep</td></tr>
+</table>
+</section>
+
+<!-- PHASE 17 -->
+<section class="phase" id="p17">
+<h2>Phase 17 — Best Free YouTube Channels</h2>
+<table>
+<tr><th>Channel</th><th>Best For</th></tr>
+<tr><td>Alex The Analyst</td><td>Full analyst roadmap, SQL, Excel, career advice</td></tr>
+<tr><td>Luke Barousse</td><td>Python for analytics, real job-market insights</td></tr>
+<tr><td>Leila Gharani</td><td>Advanced Excel & Power BI</td></tr>
+<tr><td>Guy in a Cube</td><td>Power BI deep dives, official tips</td></tr>
+<tr><td>Chandoo</td><td>Excel dashboards and visualization design</td></tr>
+<tr><td>StatQuest (Josh Starmer)</td><td>Statistics explained simply, visually</td></tr>
+<tr><td>Corey Schafer</td><td>Python & Pandas fundamentals</td></tr>
+<tr><td>freeCodeCamp</td><td>Long-form full courses (SQL, Python, Git)</td></tr>
+<tr><td>Tableau (Official)</td><td>Tableau basics straight from the source</td></tr>
+</table>
+</section>
+
+<!-- PHASE 18 -->
+<section class="phase" id="p18">
+<h2>Phase 18 — Free Books & Documentation</h2>
+<ul>
+<li><em>Storytelling with Data</em> — Cole Nussbaumer Knaflic (read free summaries/blog if book unavailable)</li>
+<li>Official docs: pandas.pydata.org, numpy.org, plotly.com/python, learn.microsoft.com (Power BI & Excel)</li>
+<li>Khan Academy — free full statistics course</li>
+<li>Mode Analytics SQL Tutorial (free, beginner to advanced)</li>
+<li>Google's free "Data Analytics" course materials (auditable for free on Coursera)</li>
+</ul>
+</section>
+
+<!-- PHASE 19 -->
+<section class="phase" id="p19">
+<h2>Phase 19 — Software Every Analyst Should Know</h2>
+<table>
+<tr><th>Tool</th><th>Why</th></tr>
+<tr><td>Excel / Google Sheets</td><td>Universal — every company uses one or both</td></tr>
+<tr><td>SQL Server / PostgreSQL / MySQL / SQLite</td><td>Different companies use different databases; know the SQL dialect differences</td></tr>
+<tr><td>Power BI / Tableau Public</td><td>The two dominant BI tools in the job market</td></tr>
+<tr><td>VS Code</td><td>Lightweight code editor for Python/SQL scripts</td></tr>
+<tr><td>Jupyter Notebook</td><td>Best for exploratory Python data analysis</td></tr>
+<tr><td>Git & GitHub</td><td>Version control + portfolio hosting</td></tr>
+<tr><td>Python</td><td>Automation, EDA, advanced analytics</td></tr>
+<tr><td>DBeaver</td><td>Free universal database GUI client</td></tr>
+</table>
+</section>
+
+<!-- PHASE 20 -->
+<section class="phase" id="p20">
+<h2>Phase 20 — 12-Month Month-by-Month Plan</h2>
+<table>
+<tr><th>Month</th><th>Focus</th><th>Hours/Week</th><th>Deliverable</th></tr>
+<tr><td>1</td><td>Foundations + Advanced Excel</td><td>14–20</td><td>1 Excel Dashboard project</td></tr>
+<tr><td>2</td><td>SQL beginner → intermediate</td><td>14–20</td><td>20+ SQL problems solved, 1 SQL+Excel mini-project</td></tr>
+<tr><td>3</td><td>SQL advanced + Stats basics</td><td>14–20</td><td>SQL portfolio project + StatQuest stats notes</td></tr>
+<tr><td>4</td><td>Python basics + Pandas</td><td>14–20</td><td>EDA notebook on a Kaggle dataset</td></tr>
+<tr><td>5</td><td>Python visualization + APIs/scraping</td><td>14–20</td><td>1 Python-based dashboard/report</td></tr>
+<tr><td>6</td><td>Power BI fundamentals + DAX</td><td>14–20</td><td>2 Power BI dashboards (e.g., HR, Sales)</td></tr>
+<tr><td>7</td><td>Power BI advanced + publishing</td><td>14–20</td><td>1 published Power BI Service report</td></tr>
+<tr><td>8</td><td>Tableau + Advanced Google Sheets</td><td>14–20</td><td>1 Tableau Public dashboard</td></tr>
+<tr><td>9</td><td>Business Analytics + Data Viz mastery</td><td>14–20</td><td>1 case-study style project with full write-up</td></tr>
+<tr><td>10</td><td>Portfolio building (3–4 best projects polished)</td><td>14–20</td><td>GitHub portfolio + GitHub Pages site live</td></tr>
+<tr><td>11</td><td>Resume + LinkedIn + mock interviews</td><td>10–15</td><td>Resume finalized, LinkedIn optimized, 5 mock interviews done</td></tr>
+<tr><td>12</td><td>Active job applications + interview prep</td><td>15–20</td><td>Daily applications + continuous SQL/case practice</td></tr>
+</table>
+<p>Each week within a month should follow: <strong>~40% new learning, 40% project practice, 10% revision, 10% interview-question practice</strong> (increasing interview practice % from Month 8 onward).</p>
+</section>
+
+<!-- EXTRAS -->
+<section class="phase" id="extra">
+<h2>Extras: Salary, Mistakes & Standing Out</h2>
+
+<h3>Salary Expectations in India (approximate, market-dependent)</h3>
+<table>
+<tr><th>Level</th><th>Typical Range (per annum)</th></tr>
+<tr><td>Fresher / Entry-level</td><td>₹3.5 – 6 LPA</td></tr>
+<tr><td>1–3 years experience</td><td>₹6 – 12 LPA</td></tr>
+<tr><td>3–5 years / Senior Analyst</td><td>₹12 – 20 LPA</td></tr>
+</table>
+<p class="note">These are general market estimates and vary heavily by city, company, and skill depth — treat as directional, not guaranteed.</p>
+
+<h3>Common Beginner Mistakes</h3>
+<ul>
+<li>Collecting certificates instead of building projects</li>
+<li>Skipping SQL practice (it's the #1 most-tested skill in interviews)</li>
+<li>Dashboards with no business story or insight — just charts</li>
+<li>Not learning Git, so all work stays invisible to recruiters</li>
+<li>Applying only after feeling "100% ready" — start applying at 70% ready</li>
+</ul>
+
+<h3>How to Stand Out from Other Analysts</h3>
+<ul>
+<li>Publish full case studies (problem → process → insight → business recommendation), not just dashboard screenshots</li>
+<li>Use real or scraped datasets occasionally instead of only common Kaggle ones everyone uses</li>
+<li>Show before/after impact numbers wherever possible</li>
+<li>Be the person in interviews who explains <em>why</em> a metric matters to the business, not just how to calculate it</li>
+</ul>
+
+<h3>Internship & Job Application Strategy</h3>
+<ul>
+<li>Apply to 5–10 roles daily once your portfolio has 3+ solid projects</li>
+<li>Target both "Data Analyst" and adjacent titles: Business Analyst, Reporting Analyst, BI Analyst, MIS Executive</li>
+<li>Use referrals via LinkedIn networking — far higher response rate than cold applications</li>
+<li>Track applications in a simple Sheet: company, role, date applied, status, follow-up date</li>
+</ul>
+</section>
+
+</div>
+
+<footer>Build something. Ship it. Iterate. Consistency over 6–12 months beats intensity for 2 weeks. Good luck 🚀</footer>
+
+</body>
+</html>
